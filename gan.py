@@ -75,6 +75,7 @@ X_mb, Z_mb, labels = sort_data.Dataset()
 def sample_Z(m, n):
     return np.random.uniform(-1., 1., size=[m, n])
 '''
+
 #Discriminator Parameters
 
 x = tf.placeholder(tf.float32, shape=[None, 224, 224, 3])
